@@ -54,3 +54,6 @@ SELECT [year],
 	[saledate] 
 FROM[Car_Sales_DE_Project].[dbo].[Car_Prices_DE]
 WHERE year = 2013;
+
+----Create a stored procedure 
+
