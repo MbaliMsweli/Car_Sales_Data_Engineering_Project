@@ -1,6 +1,6 @@
 ---first create table to store 2013 data
 
-CREATE TABLE [dbo].[Car_Prices_2013](
+CREATE TABLE [Car_Sales_DE_Project].[dbo].[Car_Prices_2013](
 	[year] [varchar](50) NULL,
 	[make] [varchar](50) NULL,
 	[model] [varchar](50) NULL,
@@ -20,7 +20,7 @@ CREATE TABLE [dbo].[Car_Prices_2013](
 )
 
 ----insert 2013 data from the main table 
-INSERT INTO [dbo].[Car_Prices_2013] ([year],
+INSERT INTO [Car_Sales_DE_Project].[dbo].[Car_Prices_2013] ([year],
 	[make],
 	[model],
 	[trim],
